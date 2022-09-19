@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.nav_list{
+    display: flex;
+    justify-content: center;
+}
+.header_blog{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 60px;
+}
+.nav_link{
+    margin: 0 23px;
+    font-size: 35px;
+    color: #bab9b9;
+}
+.nav_link:hover{
+    color: #4581b7;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #4581b7;
+}
+/* main */
+.left_text{
+    color: #7f7f7f;
+    font-size: 19px;
+    line-height: 25px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.left_title{
+    padding: 50px 0 30px;
+    color: #4581b7;
+    margin-left: 40px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    text-align: center;
+    
+}
+.main_right, .main_left{
+    background: #d1cfcf;
+    
+}
+.main_left{
+    width: 730px;
+    padding-bottom: 100px;
+}
+.main_right{
+    width: 350px;
+}
+.main_blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.right_text{
+    color: #7f7f7f;
+    padding-bottom: 50px;
+    width: 265px;
+    padding-left: 40px;
+    font-size: 25px;
+}
+.davronbek{
+    padding: 50px 0 30px;
+    width: 500px;
+    height: 450px;
+
+}
+.img_blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_blogr{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.img_blog img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px 0 30px;
+}
+.left_text{
+    font-size: 23px;
+    background: #d1cfcf;
+    text-align: justify;
+}
+.left_title{
+    font-size: 35px;
+}
+.left_textt{
+    font-size: 23px;
+    color: #7f7f7f;
+    align-items: center;
+    justify-content: space-between;
+}
+.neft{
+   width: 500px;
+   justify-content: space-between;
+   align-items: center;
+}
+/* footer */
+.footer_blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #d1cfcf;
+}
+.foot_blog{
+    text-align: right;
+}
+.foot_text{
+    font-size: 19px;
+    padding-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
